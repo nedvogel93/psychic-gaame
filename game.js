@@ -21,7 +21,7 @@ else{
     loss++;
     guess--;
     lossSpan.textContent = "Losses" + loss;
-    guessSpan.textContent = "Guesses Left: " + guess;
+    guessSpan.textContent = "Guesses Left: " + guess;}
 if( guess < 1)
     { 
     lossSpan.textContent = "You Lose";
@@ -32,4 +32,3 @@ if( guess < 1)
 
  
 }   
-}
