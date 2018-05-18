@@ -15,7 +15,7 @@ document.onkeyup = function(event)
     var computerGuess = compChoice[Math.floor(Math.random() * compChoice.length)];
 if(userChoice === computerGuess){
     win++;
-    winSpan.textContent = "Wins" + win;
+    winSpan.textContent = "Wins" + win;}
 
 else{ 
     loss++;
